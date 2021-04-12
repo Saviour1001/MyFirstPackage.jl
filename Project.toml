@@ -1,0 +1,13 @@
+name = "MyFirstPackage"
+uuid = "8dd34752-b347-4812-b047-eecdb53f54b0"
+authors = ["Harsh Ghodkar"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
